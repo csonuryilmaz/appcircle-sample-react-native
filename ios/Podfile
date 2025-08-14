@@ -18,6 +18,10 @@ target 'AppcircleRNApp' do
     # Pods for testing
   end
 
+  pod 'AFNetworking', '~> 4.0'
+  pod 'Alamofire', '~> 5.4'
+  pod 'Mapbox-iOS-SDK', '5.9.0'
+
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
